@@ -99,7 +99,7 @@ fn load_initial_data() -> Vec<LedgerEntry> {
     Vec::new()
 }
 
-#[cfg_attr(mobile, tauri::mobile_entry_point)]
+//#[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     let initial_ledger = load_initial_data();
     
