@@ -78,7 +78,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed, onUnmounted } from 'vue'
-import { invoke } from '@tauri-apps/api/tauri'
+import { invoke } from '@tauri-apps/api/core'
 
 // 猫咪相关
 const canvasRef = ref<HTMLCanvasElement | null>(null)
